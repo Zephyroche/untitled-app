@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
     margin: auto;
     background-color: #F3F7FA;
@@ -52,7 +54,8 @@ body {
 
 .ticket {
     background-color: #FFFFFF;
-    position: absolute;
+    position: relative;
+    margin-bottom: 20px;
     width: 502px;
     height: 184px;
     left: 355px;
@@ -61,4 +64,170 @@ body {
     border-color: #DFE5EC;
     border-radius: 5px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ticket:hover {
+    background: #F1FCFF;
+    transform: scale(1.01);
+}
+
+.ticket-header {
+    position: absolute;
+    width: 462px;
+    height: 36px;
+    left: 20px;
+}
+
+.ticket-header div:nth-last-of-type(2) {
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    right: 315px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    text-align: center;
+    color: #2196F3;
+}
+
+.ticket-header div:nth-last-of-type(1) img {
+    position: absolute;
+    right: 0;
+    top: 20px;
+} 
+/*route-lenght-stops*/
+.ticket-rls {
+    position: absolute;
+    width: 462px;
+    height: 39px;
+    top: 89px;
+}
+
+/*route airports*/
+.ticket-rls div:nth-last-of-type(6) {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    top: -20px;
+    left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #A0B0B9;
+}
+
+/*route-time*/
+.ticket-rls div:nth-last-of-type(5) {
+    position: absolute;
+    width: 141px;
+    height: 21px;
+    top: 0px;
+    left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+/*lenght*/
+.ticket-rls div:nth-last-of-type(4) {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    top: -20px;
+    left: 181px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #A0B0B9;
+
+}
+
+/*lenght time*/
+.ticket-rls div:nth-last-of-type(3) {
+    position: absolute;
+    width: 141px;
+    height: 21px;
+    left: 181px;
+    top: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+/*stops*/
+.ticket-rls div:nth-last-of-type(2) {
+    position: absolute;
+    width: 140px;
+    height: 18px;
+    top: -20px;
+    left: 342px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #A0B0B9;
+}
+
+/*number of stops*/
+.ticket-rls div:nth-last-of-type(1) {
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 0px;
+    left: 342px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+/*from to*/
+.ticket-ft {
+    position: absolute;
+    width: 250px;
+    height: 21px;
+    top: 130px;
+    left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;   
 }
