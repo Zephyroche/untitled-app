@@ -5,7 +5,7 @@ const TicketCard = ({ ticket }) => {
         <div className='ticket'>
             <div className='ticket-header'>
                 <div>
-                    <p>{ticket.price} Р</p>
+                    {ticket.price} Р
                 </div>
                 <div>
                     <img src={`https://pics.avs.io/110/36/${ticket.carrier}.png`} />
@@ -13,26 +13,26 @@ const TicketCard = ({ ticket }) => {
             </div>
         <div className='ticket-rls'>
             <div>
-                {ticket.origin} - {ticket.destination}
+                <h2>{ticket.origin} - {ticket.destination}</h2>
             </div>
             <div>
-                {ticket.departure_time} - {ticket.arrival_time}
+                <h1>{ticket.departure_time} - {ticket.arrival_time}</h1>
             </div>
             <div>
-                в пути
+                <h2>в пути</h2>
             </div>
             <div>
-                ч м
+                <h1>ч м</h1>
                 </div>
             <div>
-                пересадки
+                <h2>пересадки</h2>
             </div>
             <div>
-                {ticket.stops}
+                <h1>{ticket.stops}</h1>
             </div>
         </div>
         <div className='ticket-ft'>
-            {ticket.origin_name} - {ticket.destination_name}
+            <h1>{ticket.origin_name} - {ticket.destination_name}</h1>
         </div>
     </div>
     );

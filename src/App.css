@@ -23,6 +23,44 @@ body {
     bottom: 91.85%;
 }
 
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 15px;
+    display: flex;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    justify-content:center;
+    color: #4A4A4A;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #A0B0B9;
+}
+
 .filter {
     background-color: #FFFFFF;
     position: absolute;
@@ -47,7 +85,32 @@ body {
     top: 160px;
     border: 1px;
     border-color: #DFE5EC;
-    border-radius: 5px;
+}
+
+.tabs button:nth-last-of-type(1) {
+    position: absolute;
+    width: 251px;
+    height: 50px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE5EC;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs button:nth-last-of-type(2) {
+    position: absolute;
+    width: 251px;
+    height: 50px;
+    left: 251px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE5EC;
+    border-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 
 .ticket {
@@ -80,6 +143,7 @@ body {
     position: absolute;
     width: 147px;
     height: 24px;
+    top: 20px;
     right: 315px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -109,18 +173,8 @@ body {
     position: absolute;
     width: 141px;
     height: 18px;
-    top: -20px;
+    top: -30px;
     left: 20px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #A0B0B9;
 }
 
 /*route-time*/
@@ -128,16 +182,8 @@ body {
     position: absolute;
     width: 141px;
     height: 21px;
-    top: 0px;
+    top: -10px;
     left: 20px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    color: #4A4A4A;
 }
 
 /*lenght*/
@@ -145,18 +191,8 @@ body {
     position: absolute;
     width: 141px;
     height: 18px;
-    top: -20px;
+    top: -30px;
     left: 181px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #A0B0B9;
 
 }
 
@@ -166,15 +202,7 @@ body {
     width: 141px;
     height: 21px;
     left: 181px;
-    top: 0px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    color: #4A4A4A;
+    top: -10px;
 }
 
 /*stops*/
@@ -182,18 +210,8 @@ body {
     position: absolute;
     width: 140px;
     height: 18px;
-    top: -20px;
+    top: -30px;
     left: 342px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #A0B0B9;
 }
 
 /*number of stops*/
@@ -201,16 +219,8 @@ body {
     position: absolute;
     width: 140px;
     height: 21px;
-    top: 0px;
+    top: -10px;
     left: 342px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    color: #4A4A4A;
 }
 
 /*from to*/
@@ -218,14 +228,6 @@ body {
     position: absolute;
     width: 250px;
     height: 21px;
-    top: 130px;
+    top: 120px;
     left: 20px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    color: #4A4A4A;   
 }
