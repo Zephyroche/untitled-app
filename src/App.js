@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import TicketCard from './TicketCard';
 import logo from './Logo.svg'
@@ -17,15 +18,20 @@ const App = () => {
         ticketList()
     }, []);
 
-    
-
     return (
         <div className='body'>
             <div className='logo-row'>
                 <img src={logo} className='logo'/>
             </div>
             <div className='filter'></div>
-            <div className='tabs'></div>
+            <div className='tabs'>
+                <button>
+                    <p>самый дешевый</p>
+                </button>
+                <button>
+                    <p>самый быстрый</p>
+                </button>
+            </div>
             <div>
                 {tickets.map((ticket, index) => (
                     <TicketCard ticket={ticket} key={index}/>
