@@ -1,0 +1,64 @@
+body {
+    margin: auto;
+    background-color: #F3F7FA;
+    background-size: auto;
+    position: relative;
+    width: 960px;
+    height: 1350px;
+} 
+
+.logo-row {
+    width: 60px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    height: 60px;
+    left: 46.88%;
+    right: 46.88%;
+    top: 3.7%;
+    bottom: 91.85%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.filter {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 232px;
+    height: 252px;
+    left: 10.73%;
+    right: 65.1%;
+    top: 11.85%;
+    bottom: 69.48%;
+    border: 1px;
+    border-color: #DFE5EC;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tabs {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 502px;
+    height: 50px;
+    left: 355px;
+    top: 160px;
+    border: 1px;
+    border-color: #DFE5EC;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ticket {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 502px;
+    height: 184px;
+    left: 355px;
+    top: 230px;
+    border: 1px;
+    border-color: #DFE5EC;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
